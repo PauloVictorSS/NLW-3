@@ -1,0 +1,133 @@
+
+
+form{
+    width: 70rem;
+    margin: 6.4rem auto;
+    padding: 6rem;
+
+    background: white;
+    border: 1px solid #d3e2e5;
+    border-radius: 2rem;
+
+    overflow: hidden;
+}
+
+fieldset{
+    border: none;
+}
+
+fieldset + fieldset{
+    margin-top: 7rem;
+}
+
+fieldset legend{
+    width: 100%;
+
+    font-size: 3.2rem;
+    line-height: 1.5;
+    font-weight: 700;
+
+    color: #5c8599;
+
+    border-bottom: 1px solid #d3e2e5;
+
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+}
+
+div.input-block + div.input-block{
+    margin-top: 2.4rem;
+}
+
+div.input-block label{
+    color: #8fa7b3;
+
+    margin-bottom: .8rem;
+
+    line-height: 1.5;
+}
+
+div.input-block label span{
+    font-size: 1.4rem;
+    color: #8fa7b3;
+    margin-left: 2.4rem;
+    line-height: 1.5;
+}
+
+div.input-block input,
+div.input-block textarea{
+    width: 100%;
+
+    background: #f5f8fa;
+    border: 1px solid #d3e2e5;
+    border-radius: 20px;
+
+    color: #5c8599;
+
+    outline: none;
+}
+
+div.input-block input:focus,
+div.input-block textarea:focus{
+    border: 1px solid black;
+}
+
+div.input-block input{
+    height: 6.4rem;
+    padding: 0 1.6rem;
+}
+
+div.input-block input:valid,
+div.input-block textarea:valid{
+    border: 1px solid #a1e9c5;
+}
+
+div.input-block textarea{
+    height: clamp(120px, 160px, 240px);
+    resize: vertical;
+
+    padding: 1.6rem;
+
+    line-height: 28px;
+}
+
+div.input-block.images button{
+    width: 100%;
+    height: 6.4rem;
+
+    margin-top: 2.4rem;
+    padding: 0 1.6rem;
+
+    background: #f5f8fa;
+    border: 1px dashed #96d2f0;
+    border-radius: 20px;
+
+    cursor: pointer;
+}
+
+div.new-upload{
+    position: relative;
+}
+
+div.new-upload + div.new-upload{
+    margin-top: 2.4rem;
+}
+
+div.new-upload span{
+    position: absolute;
+
+    padding: .6rem;
+
+    right: 12px;
+    bottom: 12px;
+
+    background: white;
+    border: 1px solid #d3e2e5;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+}
