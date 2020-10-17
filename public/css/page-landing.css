@@ -70,7 +70,7 @@ main h1{
 
     #container{
         padding: 3.5rem 0;
-        background: url("/public/images/bg.svg") no-repeat 85% / clamp(30rem, 35vw, 50rem);
+        background: url("/images/bg.svg") no-repeat 85% / clamp(30rem, 35vw, 50rem);
     }
 
     header{
